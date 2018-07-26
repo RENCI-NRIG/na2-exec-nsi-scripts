@@ -1,3 +1,5 @@
+# used with -l option of onsa-provision.sh to generate sane values for provisioning parameters. 
+
 GUID=urn:uuid:`uuidgen`
 
 SRC="es.net:2013::sunn-cr5:10_1_6:+#vlan=1779"
