@@ -1,6 +1,6 @@
 ## na2-exec-nsi-scripts
 
-OpenNSA NSI scripts to use with [NA2 exec plugin](https://github.com/RENCI-NRIG/na2-exec-plugin).
+OpenNSA NSI scripts that can be used e.g. with [NA2 exec plugin](https://github.com/RENCI-NRIG/na2-exec-plugin). In general they turn execution of onsa client from OpenNSA into one-shot operation that returns error codes or exits with status 0. 
 
 ## Setup
 
