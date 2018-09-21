@@ -6,6 +6,11 @@ OpenNSA NSI scripts that can be used e.g. with [NA2 exec plugin](https://github.
 
 The scripts require an installation of OpenNSA somewhere and adjusting the `env.bash` script. All scripts take some command-line parameters, using `-h` will explain the use. For testing provisioning requests there is a special `-l params.sh` option that sources an additional file filled with sane values for provisioning a connection. 
 
+You also need to make sure the correct Python version is used by executing:
+```
+scl enable python27 bash
+```
+
 ## More information 
 
 [ExoGENI doc repo](https://github.com/RENCI-NRIG/exogeni/tree/master/software/nsi)
